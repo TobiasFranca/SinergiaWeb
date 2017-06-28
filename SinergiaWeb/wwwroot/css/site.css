@@ -1,37 +1,75 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿.icone-padrao{
+    height: 32px;
+    width: 32px;
+    display: inline-block;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.icone-pequeno {
+    height: 22px;
+    width: 22px;    
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
+/*Icones do Menu do Topo*/
+.icone-clientes {
+    background: url('/images/Icones/Menu/1f77b4/Business Contact.png');
+    background-size: 100%;
 }
 
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
+.icone-compras {
+    background: url('/images/Icones/Menu/2ca02c/Buy.png');
+    background-size: 100%;
 }
 
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
+.icone-produtos {
+    background: url('/images/Icones/Menu/333333/Product.png');
+    background-size: 100%;
 }
 
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
-    }
+.icone-vendas {
+    background: url('/images/Icones/Menu/9467bd/Cash Register.png');
+    background-size: 100%;
 }
+
+.icone-financeiro {
+    background: url('/images/Icones/Menu/d62728/Receive Cash.png');
+    background-size: 100%;
+}
+
+.icone-relatorios {
+    background: url('/images/Icones/Menu/f4c63d/Bar Chart.png');
+    background-size: 100%;
+}
+/*Fim Icones do Menu do Topo*/
+
+/*Icones do Menu Lateral*/
+.icone-clientes-333 {
+    background: url('/images/Icones/Menu/333333/Business Contact.png');
+    background-size: 100%;
+}
+
+.icone-compras-333 {
+    background: url('/images/Icones/Menu/333333/Buy.png');
+    background-size: 100%;
+}
+
+.icone-produtos-333 {
+    background: url('/images/Icones/Menu/333333/Product.png');
+    background-size: 100%;
+}
+
+.icone-vendas-333 {
+    background: url('/images/Icones/Menu/333333/Cash Register.png');
+    background-size: 100%;
+}
+
+.icone-financeiro-333 {
+    background: url('/images/Icones/Menu/333333/Receive Cash.png');
+    background-size: 100%;
+}
+
+.icone-relatorios-333 {
+    background: url('/images/Icones/Menu/333333/Bar Chart.png');
+    background-size: 100%;
+}
+/*Fim Icones do Menu Lateral*/
+

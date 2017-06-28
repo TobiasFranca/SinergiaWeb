@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
@@ -7,6 +7,95 @@
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\1f77b4\User.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\2ca02c\User.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Product.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\333333\User.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\9467bd\User.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Product.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\d62728\User.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\f4c63d\User.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Bar Chart.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Bill.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Business Contact.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Business Contact_2.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Buy.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Cash Register.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Check Book.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Client Company.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Purchase Order.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Receive Cash.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\Truck.png" />
+    <Content Include="wwwroot\images\Icones\Menu\ff7f0e\User.png" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
