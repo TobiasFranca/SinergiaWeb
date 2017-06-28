@@ -21,76 +21,76 @@
 
     <div class="menu_section">
         <ul>
-            <li title="Dashboard">
-                <a href="index.html">
+            <li title="Painel Principal">
+                <a asp-controller="PainelPrincipal" asp-action="Index">
                     <span class="menu_icon"><i class="material-icons">&#xE871;</i></span>
                     <span class="menu_title">Dashboard</span>
                 </a>
             </li>
-            <li title="Forms">
-                <a href="#">
+            <li title="Clientes">
+                <a asp-controller="Cliente" asp-action="Index">
                     <span class="menu_icon"><i class="icone-padrao icone-pequeno icone-clientes-333"></i></span>
                     <span class="menu_title">Clientes</span>
                 </a>
             </li>
-            <li title="Forms">
-                <a href="#">
+            <li title="Compras">
+                <a asp-controller="Compra" asp-action="Index">
                     <span class="menu_icon"><i class="icone-padrao icone-pequeno icone-compras-333"></i></span>
                     <span class="menu_title">Compras</span>
                 </a>
                 <ul>
-                    <li><a href="forms_regular.html">Pedidos de compra</a></li>
+                    <li><a asp-controller="Compra" asp-action="Index">Pedidos de compra</a></li>
                     <li class="menu_subtitle">CADASTROS</li>
-                    <li><a href="forms_wysiwyg_ckeditor.html">Categoria da compra</a></li>
+                    <li><a asp-controller="CategoriaDaCompra" asp-action="Index">Categoria da compra</a></li>
                 </ul>
             </li>
-            <li title="Forms">
-                <a href="#">
+            <li title="Produtos">
+                <a asp-controller="Produto" asp-action="Index">
                     <span class="menu_icon"><i class="icone-padrao icone-pequeno icone-produtos-333"></i></span>
                     <span class="menu_title">Produtos</span>
                 </a>
                 <ul>
-                    <li><a href="forms_regular.html">Estoque</a></li>
+                    <li><a asp-controller="Produto" asp-action="Estoque">Estoque</a></li>
                     <li class="menu_subtitle">CADASTROS</li>
-                    <li><a href="forms_wysiwyg_ckeditor.html">Fornecedores</a></li>
-                    <li><a href="forms_wysiwyg_ckeditor.html">Categoria do produto</a></li>
+                    <li><a asp-controller="Fornecedor" asp-action="Index">Fornecedores</a></li>
+                    <li><a asp-controller="CategoriaDoProduto" asp-action="Index">Categoria do produto</a></li>
                 </ul>
             </li>
-            <li title="Forms">
-                <a href="#">
+            <li title="Vendas">
+                <a asp-controller="Venda" asp-action="Index">
                     <span class="menu_icon"><i class="icone-padrao icone-pequeno icone-vendas-333"></i></span>
                     <span class="menu_title">Vendas</span>
                 </a>
                 <ul>
-                    <li><a href="forms_regular.html">Pedidos de venda</a></li>
-                    <li><a href="forms_regular.html">Ordem de serviço</a></li>
-                    <li><a href="forms_regular.html">Orçamento</a></li>
-                    <li><a href="forms_regular.html">Contratos</a></li>
+                    <li><a asp-controller="Venda" asp-action="Index">Pedidos de venda</a></li>
+                    <li><a asp-controller="OrdemDeServico" asp-action="Index">Ordem de serviço</a></li>
+                    <li><a asp-controller="Venda" asp-action="Orcamento">Orçamento</a></li>
+                    <li><a asp-controller="Contrato" asp-action="Index">Contratos</a></li>
                     <li class="menu_subtitle">CADASTROS</li>
-                    <li><a href="forms_wysiwyg_ckeditor.html">Transportadoras</a></li>
-                    <li><a href="forms_wysiwyg_ckeditor.html">Tipos de serviço</a></li>
+                    <li><a asp-controller="Transportadora" asp-action="Index">Transportadoras</a></li>
+                    <li><a asp-controller="TipoDeServico" asp-action="Index">Tipos de serviço</a></li>
                 </ul>
             </li>
-            <li title="Forms">
-                <a href="#">
+            <li title="Financeiro">
+                <a asp-controller="Financeiro" asp-action="Index">
                     <span class="menu_icon"><i class="icone-padrao icone-pequeno icone-financeiro-333"></i></span>
                     <span class="menu_title">Financeiro</span>
                 </a>
                 <ul>
-                    <li><a href="forms_regular.html">Contas a pagar</a></li>
-                    <li><a href="forms_regular.html">Contas a receber</a></li>
+                    <li><a asp-controller="Financeiro" asp-action="ContasAPagar">Contas a pagar</a></li>
+                    <li><a asp-controller="Financeiro" asp-action="ContasAReceber">Contas a receber</a></li>
                 </ul>
             </li>
-            <li title="Forms">
-                <a href="#">
+            <li title="Relatórios">
+                <a asp-controller="Relatorio" asp-action="Index">
                     <span class="menu_icon"><i class="icone-padrao icone-pequeno icone-relatorios-333"></i></span>
                     <span class="menu_title">Relatórios</span>
                 </a>
                 <ul>
-                    <li><a href="forms_regular.html">Vendas total</a></li>
-                    <li><a href="forms_regular.html">Vendas por cliente</a></li>
-                    <li><a href="forms_regular.html">Vendas por vendedor</a></li>
-                    <li><a href="forms_regular.html">Itens mais vendidos</a></li>
+                    <li><a asp-controller="Relatorio" asp-action="VendasTotal">Vendas total</a></li>
+                    <li><a asp-controller="Relatorio" asp-action="VendasPorCliente">Vendas por cliente</a></li>
+                    <li><a asp-controller="Relatorio" asp-action="VendasPorVendedor">Vendas por vendedor</a></li>
+                    <li><a asp-controller="Relatorio" asp-action="ItensMaisVendidos">Itens mais vendidos</a></li>
                 </ul>
             </li>
         </ul>
