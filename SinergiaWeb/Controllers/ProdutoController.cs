@@ -15,7 +15,7 @@ namespace SinergiaWeb.Controllers
 
         public IActionResult Estoque()
         {
-            return View("Index");
+            return View();
         }
     }
 }

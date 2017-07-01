@@ -15,22 +15,22 @@ namespace SinergiaWeb.Controllers
 
         public IActionResult VendasTotal()
         {
-            return View("Index");
+            return View();
         }
 
         public IActionResult VendasPorCliente()
         {
-            return View("Index");
+            return View();
         }
 
         public IActionResult VendasPorVendedor()
         {
-            return View("Index");
+            return View();
         }
 
         public IActionResult ItensMaisVendidos()
         {
-            return View("Index");
+            return View();
         }
     }
 }

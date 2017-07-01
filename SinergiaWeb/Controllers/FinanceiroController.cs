@@ -15,12 +15,12 @@ namespace SinergiaWeb.Controllers
 
         public IActionResult ContasAPagar()
         {
-            return View("Index");
+            return View();
         }
 
         public IActionResult ContasAReceber()
         {
-            return View("Index");
+            return View();
         }
     }
 }

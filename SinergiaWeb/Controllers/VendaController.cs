@@ -15,7 +15,7 @@ namespace SinergiaWeb.Controllers
 
         public IActionResult Orcamento()
         {
-            return View("Index");
+            return View();
         }
     }
 }
