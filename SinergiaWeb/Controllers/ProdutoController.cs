@@ -8,12 +8,22 @@ namespace SinergiaWeb.Controllers
 {
     public class ProdutoController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Detalhes()
+        {
+            return View();
+        }
+
+        public IActionResult Editar()
         {
             return View();
         }
 
         public IActionResult Estoque()
+        {
+            return View();
+        }
+
+        public IActionResult Index()
         {
             return View();
         }
