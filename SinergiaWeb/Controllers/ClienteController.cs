@@ -12,5 +12,12 @@ namespace SinergiaWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult Editar()
+        {
+            return View();
+        }
     }
+
+
 }

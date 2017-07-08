@@ -1,14 +1,1068 @@
 ﻿<div id="page_content">
     <div id="page_content_inner">
-        <h3 class="heading_b uk-margin-bottom">Cliente</h3>
-        <div class="md-card">
+        <h3 class="heading_b uk-margin-bottom">Contact List</h3>
+        <div class="md-card uk-margin-medium-bottom">
             <div class="md-card-content">
                 <div class="uk-grid" data-uk-grid-margin>
-                    <div class="uk-width-1-1">
-                        Index Padrão.
+                    <div class="uk-width-medium-1-2">
+                        <div class="uk-vertical-align">
+                            <div class="uk-vertical-align-middle">
+                                <ul id="contact_list_filter" class="uk-subnav uk-subnav-pill uk-margin-remove">
+                                    <li class="uk-active" data-uk-filter=""><a href="#">All</a></li>
+                                    <li data-uk-filter="goodwin-nienow"><a href="#">Goodwin-Nienow</a></li>
+                                    <li data-uk-filter="strosin groupa"><a href="#">Strosin Groupa</a></li>
+                                    <li data-uk-filter="schamberger plc"><a href="#">Schamberger PLC </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-medium-1-2">
+                        <label for="contact_list_search">Search... (min 3 char.)</label>
+                        <input class="md-input" type="text" id="contact_list_search" />
                     </div>
                 </div>
             </div>
         </div>
+        <h3 class="heading_b uk-text-center grid_no_results" style="display:none">No results found</h3>
+        <div class="uk-grid-width-small-1-2 uk-grid-width-medium-1-3 uk-grid-width-large-1-4 uk-grid-width-xlarge-1-5 hierarchical_show" id="contact_list">
+            <div data-uk-filter="schamberger plc ,antonietta witting,hkeeling@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_02.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Antonietta Witting                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Id eum culpa sunt aspernatur dolor ducimus quisquam tenetur earum recusandae ut.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">hkeeling@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">(308)456-6832</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,neal fadel,dell.orn@glover.biz">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_10.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Neal Fadel                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Neque laboriosam consequatur in sequi saepe recusandae dignissimos qui blanditiis.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">dell.orn@glover.biz</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">1-133-747-2433x5014</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,fredy schulist,nrussel@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_08.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Fredy Schulist                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Corporis consequuntur corrupti aliquam accusantium porro neque.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">nrussel@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">1-979-314-5856x032</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,florida jacobs,pmurazik@gmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head md-bg-cyan-600">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons md-icon-light">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_07.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center md-color-white">
+                            Florida Jacobs                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Nihil iusto rerum animi consequatur cupiditate et accusamus fugiat eum.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">pmurazik@gmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">831-047-2786x114</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,prof. jeramy schneider,raynor.stefan@yahoo.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_03.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Prof. Jeramy Schneider                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Ab modi veritatis doloribus sint aspernatur officia repellendus.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">raynor.stefan@yahoo.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">256-028-1086x440</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,shanon labadie,aiden.pfannerstill@hermistonthompson.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_05.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Shanon Labadie                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Sit aut ab rem et et cupiditate eum suscipit debitis fugiat molestiae.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">aiden.pfannerstill@hermistonthompson.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">002-926-4904x25185</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,mr. john collins iv,hbauch@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head md-bg-cyan-600">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons md-icon-light">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_04.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center md-color-white">
+                            Mr. John Collins IV                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Distinctio rem maiores asperiores architecto voluptas et voluptates officia aut repellendus exercitationem.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">hbauch@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">(572)096-2277x466</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,jordyn spencer v,kaela36@gmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_02.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Jordyn Spencer V                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Et reiciendis quia ipsam et harum ipsa deleniti quod vel.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">kaela36@gmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">00631103497</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,dr. baby hackett phd,katlynn.wisozk@botsfordmueller.net">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_02.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Dr. Baby Hackett PhD                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Minus beatae qui impedit sunt ut quia fuga cum sed qui consequatur cupiditate.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">katlynn.wisozk@botsfordmueller.net</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">1-636-891-0321x32830</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,henderson huel,xschaefer@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_12.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Henderson Huel                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Et aspernatur inventore amet deleniti dolores hic architecto totam fugit sed non natus excepturi.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">xschaefer@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">567.195.6301</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,herbert moen,raven.willms@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_01.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Herbert Moen                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Quae nisi explicabo temporibus facere neque voluptatibus aut dolorem.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">raven.willms@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">331-373-0917</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="goodwin-nienow,mr. abel zemlak,whitney45@goodwinbashirian.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_05.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Mr. Abel Zemlak                                <span class="uk-text-truncate">Goodwin-Nienow</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Nemo illum beatae veniam explicabo blanditiis ut qui maxime voluptas repellat.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">whitney45@goodwinbashirian.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">01514604588</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,ursula pouros,rempel.una@gmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_05.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Ursula Pouros                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Quod occaecati blanditiis voluptatem ratione similique omnis.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">rempel.una@gmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">017-935-9563x729</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,trent reinger,borer.kaleb@koss.org">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_07.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Trent Reinger                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Fugiat laborum ipsam rerum dolore blanditiis nam aliquid molestiae.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">borer.kaleb@koss.org</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">1-350-266-8286x3743</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,ms. marielle casper,abdullah.reinger@wittingohara.biz">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_11.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Ms. Marielle Casper                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Fuga voluptatem fuga est voluptatem voluptates voluptatem sit blanditiis qui quia quia sequi.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">abdullah.reinger@wittingohara.biz</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">873.721.1387x6600</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="goodwin-nienow,veronica trantow,dstehr@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_05.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Veronica Trantow                                <span class="uk-text-truncate">Goodwin-Nienow</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Animi facilis deserunt voluptatibus quas et reiciendis in omnis.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">dstehr@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">483.631.6569</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,cruz nikolaus phd,gsteuber@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_05.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Cruz Nikolaus PhD                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Optio et fugiat facere architecto facere exercitationem sint placeat.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">gsteuber@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">1-265-918-3473x72489</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="schamberger plc ,delia legros,wilderman.weldon@lesch.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_05.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Delia Legros                                <span class="uk-text-truncate">Schamberger PLC </span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Ipsum voluptatibus ducimus quia dolore vitae dolores voluptatem architecto sapiente aut.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">wilderman.weldon@lesch.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">042-943-1091</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,dr. easton klein,hildegard31@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_04.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Dr. Easton Klein                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Molestias cupiditate sunt autem in itaque ut quis dolorum eos deleniti et vitae.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">hildegard31@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">751-191-6945x539</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="goodwin-nienow,jillian brekke,fwilliamson@hickle.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head md-bg-cyan-600">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons md-icon-light">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_01.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center md-color-white">
+                            Jillian Brekke                                <span class="uk-text-truncate">Goodwin-Nienow</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Dicta nulla corrupti labore amet mollitia voluptas.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">fwilliamson@hickle.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">214.044.3696x9790</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,blanche schoen,yost.liam@kulas.net">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_09.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Blanche Schoen                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Ratione voluptates velit ad exercitationem odio voluptatem neque molestias omnis in.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">yost.liam@kulas.net</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">342.982.9574x811</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,mr. tyler prosacco,lkilback@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_02.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Mr. Tyler Prosacco                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Labore dolorem enim quisquam perspiciatis quae ad corporis labore veniam voluptatem.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">lkilback@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">(534)910-5352x6734</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="strosin groupa,dr. geo feest iv,little.alberta@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_09.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Dr. Geo Feest IV                                <span class="uk-text-truncate">Strosin Groupa</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Ut autem commodi dolorum dolore consectetur et.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">little.alberta@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">(619)095-9730x228</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-uk-filter="goodwin-nienow,johathan anderson,feil.agustin@hotmail.com">
+                <div class="md-card md-card-hover">
+                    <div class="md-card-head">
+                        <div class="md-card-head-menu" data-uk-dropdown="{pos:'bottom-right'}">
+                            <i class="md-icon material-icons">&#xE5D4;</i>
+                            <div class="uk-dropdown uk-dropdown-small">
+                                <ul class="uk-nav">
+                                    <li><a href="#">Edit</a></li>
+                                    <li><a href="#">Remove</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="uk-text-center">
+                            <img class="md-card-head-avatar" src="/assets/img/avatars/avatar_12.png" alt="" />
+                        </div>
+                        <h3 class="md-card-head-text uk-text-center">
+                            Johathan Anderson                                <span class="uk-text-truncate">Goodwin-Nienow</span>
+                        </h3>
+                    </div>
+                    <div class="md-card-content">
+                        <ul class="md-list">
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Info</span>
+                                    <span class="uk-text-small uk-text-muted">Est quia consequatur ut dicta ut deleniti vel est inventore vel nostrum quam beatae.</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Email</span>
+                                    <span class="uk-text-small uk-text-muted uk-text-truncate">feil.agustin@hotmail.com</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="md-list-content">
+                                    <span class="md-list-heading">Phone</span>
+                                    <span class="uk-text-small uk-text-muted">540.288.9997</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="md-fab-wrapper">
+        <a asp-controller="Cliente" asp-action="Editar" class="md-fab md-fab-accent">
+            <i class="material-icons">&#xE145;</i>
+        </a>
     </div>
 </div>
