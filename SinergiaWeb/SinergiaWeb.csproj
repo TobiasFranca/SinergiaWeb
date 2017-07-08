@@ -111,5 +111,9 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SinergiaWeb.Enumerador\SinergiaWeb.Enumerador.csproj" />
+    <ProjectReference Include="..\SinergiaWeb.Model\SinergiaWeb.Model.csproj" />
+  </ItemGroup>
 
 </Project>

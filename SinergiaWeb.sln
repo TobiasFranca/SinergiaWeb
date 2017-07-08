@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinergiaWeb", "SinergiaWeb\SinergiaWeb.csproj", "{46AC1F2F-2746-4FD1-98DE-C65DA2A9322D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SinergiaWeb", "SinergiaWeb\SinergiaWeb.csproj", "{46AC1F2F-2746-4FD1-98DE-C65DA2A9322D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinergiaWeb.Model", "SinergiaWeb.Model\SinergiaWeb.Model.csproj", "{9DB14346-0251-4E52-B3C7-9C3A0A885759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinergiaWeb.Enumerador", "SinergiaWeb.Enumerador\SinergiaWeb.Enumerador.csproj", "{0280ABDC-3B85-44D0-9457-A19712A07CD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{46AC1F2F-2746-4FD1-98DE-C65DA2A9322D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46AC1F2F-2746-4FD1-98DE-C65DA2A9322D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46AC1F2F-2746-4FD1-98DE-C65DA2A9322D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB14346-0251-4E52-B3C7-9C3A0A885759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB14346-0251-4E52-B3C7-9C3A0A885759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB14346-0251-4E52-B3C7-9C3A0A885759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB14346-0251-4E52-B3C7-9C3A0A885759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0280ABDC-3B85-44D0-9457-A19712A07CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0280ABDC-3B85-44D0-9457-A19712A07CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0280ABDC-3B85-44D0-9457-A19712A07CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0280ABDC-3B85-44D0-9457-A19712A07CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
